@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lethavia Technologies</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background-color: #0B0B0F; 
+            color: white; 
+            font-family: 'Poppins', sans-serif; 
+            height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            overflow: hidden;
+        }
+        .bg-glow {
+            position: absolute;
+            top: -20%; left: -10%;
+            width: 60vw; height: 60vw;
+            background: radial-gradient(circle, rgba(108, 99, 255, 0.1) 0%, rgba(11, 11, 15, 0) 70%);
+            border-radius: 50%;
+            z-index: 0;
+        }
+        main { text-align: center; z-index: 10; padding: 20px; }
+        .logo-box {
+            border: 2px solid #6C63FF;
+            display: inline-block;
+            padding: 5px 15px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            border-radius: 4px;
+            margin-bottom: 25px;
+        }
+        h1 { font-weight: 300; letter-spacing: 0.3em; font-size: 2rem; }
+        h2 { font-weight: 700; font-size: 0.7rem; letter-spacing: 0.6em; color: #A78BFA; margin-top: 10px; }
+        .divider { width: 150px; height: 1px; background: rgba(255,255,255,0.1); margin: 30px auto; }
+        .slogan { font-size: 0.75rem; letter-spacing: 0.2em; color: #5F5F71; text-transform: uppercase; margin-bottom: 30px; }
+        .status-badge {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 8px 20px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            color: #A78BFA;
+            margin-bottom: 20px;
+        }
+        .dot { width: 8px; height: 8px; background: #6C63FF; border-radius: 50%; box-shadow: 0 0 10px #6C63FF; animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(1.2); } 100% { opacity: 1; transform: scale(1); } }
+        .launch-date { font-size: 0.8rem; color: #6C63FF; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 40px; }
+        .links { display: flex; flex-direction: column; gap: 25px; }
+        a { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.6; transition: 0.3s; }
+        a:hover { opacity: 1; color: #6C63FF; }
+        .socials { display: flex; justify-content: center; gap: 30px; opacity: 0.4; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <main>
+        <div class="logo-box">L</div>
+        <h1>LETHAVIA</h1>
+        <h2>TECHNOLOGIES</h2>
+        <div class="divider"></div>
+        <p class="slogan">Concevoir des solutions intelligentes pour bâtir l'avenir.</p>
+        <div class="status-badge">
+            <div class="dot"></div>
+            DÉVELOPPEMENT EN COURS | MODE DISCRET
+        </div>
+        <p class="launch-date">LANCEMENT OFFICIEL PRÉVU POUR 2029</p>
+        <div class="links">
+            <a href="mailto:jessica.admin@lethavia.com">
+                <i class="fa-regular fa-envelope"></i> jessica.admin@lethavia.com
+            </a>
+            <div class="socials">
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
